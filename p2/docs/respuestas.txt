@@ -1,0 +1,15 @@
+Trabajo en equipo con git
+
+- ¿Cuál es la diferencia entre compilación e interpretación?
+
+La diferencia entre las dos es que compilación se requiere un paso antes de ser ejecutado, que convierte el código a lenguaje máquina e interpretación es convertido a lenguaje máquina a medida que será ejecutado.
+
+
+- ¿Cuál es la principal diferencia entre el contenido del fichero helloWorld.sh y helloWorld.scm?
+
+La diferencia entre el fichero .sh y el .scm es que el .sh tiene todos los permisos de ejecución, en cambio el .scm no tiene ninguno. Por tanto esto hace que el .sh se abra directamente, y el fichero .scm no nos deje ejecutarlo de ninguna manera hasta que cambiemos los permisos.
+
+
+- ¿Qué significado tiene la primera línea del fichero helloWorld.sh?
+
+La primera línea de nuestro script le indica al sistema que tiene que usar la shell BASH como intérprete de nuestro script.
