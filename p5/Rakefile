@@ -1,0 +1,22 @@
+task :default => :test
+
+desc "Pruebas unitarias de la clase expresiones_regulares.rb"
+task :test do
+	sh "ruby -I. test/tc_expresiones_regulares.rb"
+end
+
+desc "Pruebas unitarias para concatenacion"
+task :concatenacion do
+	sh "ruby -I. test/tc_expresiones_regulares.rb --name /concatenacion/"
+end
+
+desc "Pruebas unitarias para alternativa"
+task :alternativa do
+	sh "ruby -I. test/tc_expresiones_regulares.rb --name /alternativa/"
+end
+
+
+desc "Pruebas unitarias para cierre de kleen"
+task :cierre_kleen do
+	sh "ruby -I. test/tc_expresiones_regulares.rb --name /cierre_kleen/"
+end
