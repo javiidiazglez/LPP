@@ -1,0 +1,23 @@
+Thu, 09 Dec 2021 10:51:50 +0000
+./Guardfile	Thu, 09 Dec 2021 03:00:42 +0000
+./Rakefile	Wed, 24 Nov 2021 20:59:18 +0000
+./LICENSE.txt	Wed, 24 Nov 2021 20:59:18 +0000
+./CODE_OF_CONDUCT.md	Wed, 24 Nov 2021 20:59:18 +0000
+./spec/spec_helper.rb	Wed, 24 Nov 2021 20:59:18 +0000
+./spec/ave_spec.rb	Thu, 09 Dec 2021 03:00:42 +0000
+./spec/granja_spec.rb	Thu, 09 Dec 2021 03:00:42 +0000
+./spec/funcion_spec.rb	Thu, 09 Dec 2021 10:51:21 +0000
+./spec/animal_spec.rb	Thu, 09 Dec 2021 03:00:42 +0000
+./spec/datos_spec.rb	Thu, 09 Dec 2021 03:00:42 +0000
+./lib/granja.rb	Thu, 09 Dec 2021 03:00:42 +0000
+./lib/granja/version.rb	Thu, 09 Dec 2021 03:00:42 +0000
+./lib/granja/ave.rb	Thu, 09 Dec 2021 03:00:42 +0000
+./lib/granja/animal.rb	Thu, 09 Dec 2021 03:00:42 +0000
+./lib/granja/funcion.rb	Thu, 09 Dec 2021 10:51:07 +0000
+./lib/granja/datos.rb	Thu, 09 Dec 2021 03:00:42 +0000
+./bin/setup	Wed, 24 Nov 2021 20:59:18 +0000
+./bin/console	Wed, 24 Nov 2021 20:59:18 +0000
+./CHANGELOG.md	Wed, 24 Nov 2021 20:59:18 +0000
+./Gemfile	Thu, 09 Dec 2021 03:00:42 +0000
+./README.md	Thu, 09 Dec 2021 03:00:42 +0000
+./Gemfile.lock	Thu, 09 Dec 2021 03:00:42 +0000
