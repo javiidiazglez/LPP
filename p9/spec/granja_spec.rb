@@ -22,14 +22,13 @@ RSpec.describe Granja do
 
     @datos = Granja::Datos.new(1212,"Pepito","avícola", "Alto")
   end
+
   context "Práctica 8." do
     context "Representación de un Animal - Granja::Animal" do
       context "Atributos de la clase Animal" do
-
         it "Tiene una clase para representar Animal" do
           expect(@animal_1).not_to be_nil
         end
-
         it "Tiene un atributo para identificar al Animal" do
           expect(@animal_1.identificacion).to eq(1212)
         end
@@ -65,7 +64,6 @@ RSpec.describe Granja do
           expect((@animal_1).is_a?Numeric).to eq(false)
         end
       end
-
       context "Comparable clase Animal" do
         it "Se espera Animal 1 < Animal 2 (4000 < 5000)" do
           expect(@animal_1 < @animal_2).to eq(true) 
@@ -318,7 +316,6 @@ RSpec.describe Granja do
           expect(Granja::Funcion::set_cuidado(5.2 , @vector_animales)).to eq([305.2, 405.2, 505.2, 1005.2])
         end
       end
-
       context "Población de la granja" do
         it "Existe un procedimiento para establecer la reproduccion de los animales ( > 24 )" do
           expect(Granja::Funcion::set_reproduccion(@vector_animales)).to eq([@animal_4])    # 1000 /30 = 33.3 > 24 SI
