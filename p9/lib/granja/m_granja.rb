@@ -85,6 +85,14 @@ module Granja
     def <=> other
       @edad <=> other.edad
     end
+
+    # Metodo == para comparar objetos con igual atributos
+    #@param other, recibe peso para igualar
+    def == (other)
+      @peso == other.peso && @sexo == other.sexo && @edad == other.edad
+      rescue
+      false
+    end
     
     # Método para mostrar el objeto
     # @return cadena s
@@ -128,11 +136,13 @@ module Granja
     # @return [Numeric] precio de venta de las aves
     # @return [String] información relativa
     # @return [Array] Pollo 1 y Pollo 2
-    attr_accessor :tipo_aves, :destino, :numeros_aves, :precio_compra, :precio_venta, :informacion, :aves_granja
+    # @return [Array] Almacenar array
+    attr_reader :tipo_aves, :destino, :numeros_aves, :precio_compra, :precio_venta, :informacion, :aves_granja, :almacenar
+    attr_writer :almacenar
   
     # Método para inicializar el objeto
-    # @param tipo_aves destino numeros_aves precio_compra,precio_venta, informacion, aves_granja
-    def initialize (tipo_aves, destino, numeros_aves, precio_compra, precio_venta, informacion, aves_granja)  
+    # @param tipo_aves destino numeros_aves precio_compra,precio_venta, informacion, aves_granja, almacenar
+    def initialize (tipo_aves, destino, numeros_aves, precio_compra, precio_venta, informacion, aves_granja, almacenar)  
       @tipo_aves =  tipo_aves
       @destino = destino
       @numeros_aves = numeros_aves
@@ -140,6 +150,7 @@ module Granja
       @precio_venta = precio_venta
       @informacion = informacion
       @aves_granja = aves_granja
+      @almacenar = almacenar
     end
     
     # Se crea la funcion each con los 3 campos Numerics
@@ -166,6 +177,7 @@ module Granja
     
   #defino una condición con un string 
   CONDICION = "campo abierto"
+  @condicion = ""
 
 	# Setter de self.cuidado
 	# @return cuidado del animal
@@ -181,8 +193,8 @@ module Granja
 
   # @return [Constante] - Jaulas
   # @return [Constante] - Campo_abierto
-  JAULAS = "Condiciones favorables"
-  CAMPO_ABIERTO = "Circulan libremente"
+  JAULAS = "jaulas"
+  CAMPO_ABIERTO = "campo_abierto"
     
     # Setter de def self.reproduccion
   # @return set_reproduccion (avalor, lista)
@@ -192,8 +204,26 @@ module Granja
 
   # Setter de def self.reproduccion
   # @return set_reproduccion (animales)
-  def self.set_reproduccion(animales)
-    return animales.select{ |i| (i / 30) > 24 }
+  def self.set_reproduccion(lista)
+    return lista.select{ |i| (i / 30) > 24 }
+  end
+
+  # Procedimiento para gestionar animales (jaulas, campo abierto)
+  def self.GestionAnimales (p1, p2, lista)
+    if (p1 == "jaulas")
+      lista.almacenar = "jaulas"
+      @condiciones = "jaulas"
+      "automatica"
+      else if (p1 == "campo_abierto")
+        lista.almacenar = "campo_abierto"
+        @condiciones = "campo_abierto"
+        if (p2 == 1)
+          "libre"
+        else
+          "cobertizo"
+        end
+      end
+    end
   end
 
   # Método para mostrar el objeto

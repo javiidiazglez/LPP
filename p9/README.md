@@ -170,27 +170,48 @@ Práctica de Laboratorio #9. POO: Polimorfismo
 - Expectativa 26: Existe una constante de Jaulas **no pasa la prueba**
 - Expectativa 26: Se crea la constante **pasa la prueba**
 ``` ruby
-      expect(Granja::Funcion::JAULAS).to eq("Condiciones favorables")
+      expect(Granja::Funcion::JAULAS).to eq("jaulas")
 ```
 
 - Expectativa 27: Existe una constante de Campo Abierto **no pasa la prueba**
 - Expectativa 27: Se crea la constante **pasa la prueba**
 ``` ruby
-      expect(Granja::Funcion::CAMPO_ABIERTO).to eq("Circulan libremente")
+      expect(Granja::Funcion::CAMPO_ABIERTO).to eq("campo_abierto")
+```
+
+- Expectativa 28: Existe una gestión mediante JAULAS **no pasa la prueba**
+- Expectativa 28: Se crea la funcion **pasa la prueba**
+``` ruby
+      expect(Granja::Funcion::GestionAnimales("jaulas",0, @avicola)).to eq("automatica")
+      expect(@avicola.almacenar).to eq("jaulas") 
+```
+
+- Expectativa 29: Existe una gestión mediante CAMPO ABIERTO fuera del cobertizo LIBRE **no pasa la prueba**
+- Expectativa 29: Se crea la función **pasa la prueba**
+``` ruby
+      expect(Granja::Funcion::GestionAnimales("campo_abierto",1,@avicola)).to eq("libre")
+      expect(@avicola.almacenar).to eq("campo_abierto")
+```
+
+- Expectativa 30: Existe una gestión mediante CAMPO ABIERTO dentro del COBERTIZO **no pasa la prueba**
+- Expectativa 30: Se crea la función **pasa la prueba**
+``` ruby
+      expect(Granja::Funcion::GestionAnimales("campo_abierto",2,@avicola)).to eq("cobertizo")
+      expect(@avicola.almacenar).to eq("campo_abierto") 
 ```
 
 ## Productores Avicolas
 
-- Expectativa 28: Existe un procedimiento para establecer los cuidados de los animales **no pasa la prueba**
-- Expectativa 28: Se crea los cuidados **pasa la prueba**
+- Expectativa 31: Existe un procedimiento para establecer los cuidados de los animales **no pasa la prueba**
+- Expectativa 31: Se crea los cuidados **pasa la prueba**
 ``` ruby
       expect(Granja::Funcion::set_cuidado(5.2 , @vector_animales)).to eq([305.2, 405.2, 505.2, 1005.2])
 ```
 
 ## Población de la granja
 
-- Expectativa 29: Existe un procedimiento para establecer la reproduccion de los animales ( > 24 ) **no pasa la prueba**
-- Expectativa 29: Se crea la reproduccion con `not_to eq` & `to eq` **pasa la prueba**
+- Expectativa 32: Existe un procedimiento para establecer la reproduccion de los animales ( > 24 ) **no pasa la prueba**
+- Expectativa 32: Se crea la reproduccion con `not_to eq` & `to eq` **pasa la prueba**
 ``` ruby
       expect(Granja::Funcion::set_reproduccion(@vector_animales)).to eq([@animal_4])
       expect(Granja::Funcion::set_reproduccion(@vector_animales)).not_to eq([@animal_1, @animal_2, @animal_3])

@@ -12,7 +12,7 @@ RSpec.describe Granja do
     @pollo2 = Granja::Ave.new("grueso","palmeadas","nadadoras") 
     @vector_aves = [@pollo1, @pollo2]
 
-    @avicola = Granja::Avicola.new("pollo","huevos",2,100,200,"ave macho robusto",@vector_aves)
+    @avicola = Granja::Avicola.new("pollo","huevos",2,100,200,"ave macho robusto",@vector_aves,"establo")
 
     @animal_1 = Granja::Animal.new(1212,300,"Masculino",4000)
     @animal_2 = Granja::Animal.new(1212,400,"Masculino",5000)
@@ -112,7 +112,7 @@ RSpec.describe Granja do
         end
         it "Se espera que una instancia de la clase Ave sea un Animal" do
           #expect((@pollo1).is_a?Granja::Animal).to eq(true)
-          expect(@pollo1).to be_a(Granja::Animal)     ###########################
+          expect(@pollo1).to be_a(Granja::Animal)
         end
         it "Se espera que una instancia de la clase Ave sea un objeto (Object)" do
           expect((@pollo1).is_a?Object).to eq(true)
@@ -305,10 +305,22 @@ RSpec.describe Granja do
       end
       context "Gestión de puesta de huevos de Granja Avicola" do
         it "Existe una constante para Jaulas" do
-          expect(Granja::Funcion::JAULAS).to eq("Condiciones favorables")
+          expect(Granja::Funcion::JAULAS).to eq("jaulas")
         end
         it "Existe una constante para Campo Abierto" do
-          expect(Granja::Funcion::CAMPO_ABIERTO).to eq("Circulan libremente")
+          expect(Granja::Funcion::CAMPO_ABIERTO).to eq("campo_abierto")
+        end
+        it "Gestión mediante JAULAS" do
+          expect(Granja::Funcion::GestionAnimales("jaulas",0, @avicola)).to eq("automatica")
+          expect(@avicola.almacenar).to eq("jaulas")        
+        end
+        it "Gestion mediante CAMPO ABIERTO fuera del cobertizo LIBRE" do
+          expect(Granja::Funcion::GestionAnimales("campo_abierto",1,@avicola)).to eq("libre")
+          expect(@avicola.almacenar).to eq("campo_abierto")
+        end
+        it "Gestion mediante CAMPO ABIERTO dentro del COBERTIZO" do
+          expect(Granja::Funcion::GestionAnimales("campo_abierto",2,@avicola)).to eq("cobertizo")
+          expect(@avicola.almacenar).to eq("campo_abierto")      
         end
       end
       context "Productores Avicolas" do
@@ -324,5 +336,12 @@ RSpec.describe Granja do
       end
     end
   end
+  context "Práctica 10." do
+    context "Existe funcionalidad para calcular el bienestar animal" do
+
+    end
+  end
+
+
 
 end 
