@@ -314,11 +314,11 @@ RSpec.describe Granja do
           expect(Granja::Funcion::GestionAnimales("jaulas",0, @avicola)).to eq("automatica")
           expect(@avicola.almacenar).to eq("jaulas")        
         end
-        it "Gestion mediante CAMPO ABIERTO fuera del cobertizo LIBRE" do
+        it "Gestión mediante CAMPO ABIERTO fuera del cobertizo LIBRE" do
           expect(Granja::Funcion::GestionAnimales("campo_abierto",1,@avicola)).to eq("libre")
           expect(@avicola.almacenar).to eq("campo_abierto")
         end
-        it "Gestion mediante CAMPO ABIERTO dentro del COBERTIZO" do
+        it "Gestión mediante CAMPO ABIERTO dentro del COBERTIZO" do
           expect(Granja::Funcion::GestionAnimales("campo_abierto",2,@avicola)).to eq("cobertizo")
           expect(@avicola.almacenar).to eq("campo_abierto")      
         end
