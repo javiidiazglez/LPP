@@ -23,3 +23,5 @@ Repositorio para las prácticas de la asignatura de LPP - **3º Año de carrera*
 - #### [Práctica 8](https://github.com/alu0101128894/LPP/tree/main/p8). Programación Orientada a Objetos. Herencia
 
 - #### [Práctica 9](https://github.com/alu0101128894/LPP/tree/main/p9). Programación Orientada a Objetos. Polimorfismo
+
+- #### [Práctica 10](https://github.com/alu0101128894/LPP/tree/main/p10). Programación Funcional.
