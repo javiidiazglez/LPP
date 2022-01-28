@@ -1,0 +1,6 @@
+task :default => :test
+
+desc "Ejecutar matriz.rb"
+task :test do
+	sh "ruby -I. lib/matriz.rb"
+end

@@ -16,7 +16,7 @@ Repositorio para las prácticas de la asignatura de LPP - **3º Año de carrera*
 
 - #### [Práctica 5](https://github.com/alu0101128894/LPP/tree/main/p5). Pruebas Unitarias
 
-- #### [Práctica 6](). Desarrollo dirigido por pruebas (TDD)
+- #### [Práctica 6](https://github.com/alu0101128894/LPP/tree/main/p6). Desarrollo dirigido por pruebas (TDD)
 
 - #### [Práctica 7](https://github.com/alu0101128894/LPP/tree/main/p7). Programación Orientada a Objetos. Gema
 
