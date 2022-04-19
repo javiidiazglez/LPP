@@ -26,4 +26,4 @@ Repositorio para las prácticas de la asignatura de LPP - **3º Año de carrera*
 
 - #### [Práctica 10](https://github.com/alu0101128894/LPP/tree/main/p10). Programación Funcional.
 
-- #### [Práctica 11](https://github.com/alu0101128894/LPP/tree/main/p10). Programación Funcional. DSL.
+- #### [Práctica 11](https://github.com/alu0101128894/LPP/tree/main/p11). Programación Funcional. DSL.
