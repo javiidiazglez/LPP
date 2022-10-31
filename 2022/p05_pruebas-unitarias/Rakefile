@@ -1,0 +1,31 @@
+task :default => :test
+
+desc "Pruebas unitarias de la clase vehiculo.rb"
+task :test do
+	sh "ruby -I. test/tc_vehiculo.rb"
+end
+
+desc "Pruebas unitarias para coste_total_vehiculo"
+task :coste_total_vehiculo do
+	sh "ruby -I. test/tc_vehiculo.rb --name /coste_total_vehiculo/"
+end
+
+desc "Pruebas unitarias para coste_descuento_vehiculo"
+task :coste_descuento_vehiculo do
+	sh "ruby -I. test/tc_vehiculo.rb --name /coste_descuento_vehiculo/"
+end
+
+desc "Pruebas unitarias para total_km_vehiculo"
+task :total_km_vehiculo do
+	sh "ruby -I. test/tc_vehiculo.rb --name /total_km_vehiculo/"
+end
+
+desc "Pruebas unitarias para failure"
+task :failure do
+	sh "ruby -I. test/tc_vehiculo.rb --name /failure/"
+end
+
+desc "Pruebas unitarias para type_check"
+task :type_check do
+	sh "ruby -I. test/tc_vehiculo.rb --name /type_check/"
+end

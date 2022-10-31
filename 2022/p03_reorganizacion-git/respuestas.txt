@@ -1,0 +1,129 @@
+Poniendo a punto el gestor de intérpretes de Ruby
+
+#Pregunta 32 - Dibuje el grafo de las confirmaciones hasta el momento. ¿Cuántas ramas hay?¿Cuáles son locales y cuáles son remotas?
+
+Solo hay ramas locales, que son el doc y el master, y una rama remota, el git remote
+
+* commit e4a403c (HEAD -> doc, ghp03/main, main)
+| Author: Javier Díaz <alu0101128894@ull.edu.es>
+| Date:   3 minutes ago
+| 
+|     Creado el fichero de respuestas
+| 
+* commit 13339b8
+| Author: Javier Díaz <alu0101128894@ull.edu.es>
+| Date:   4 minutes ago
+| 
+|     Creando el fichero README.md
+| 
+:...skipping...
+* commit e4a403c (HEAD -> doc, ghp03/main, main)
+| Author: Javier Díaz <alu0101128894@ull.edu.es>
+| Date:   3 minutes ago
+| 
+|     Creado el fichero de respuestas
+| 
+* commit 13339b8
+| Author: Javier Díaz <alu0101128894@ull.edu.es>
+| Date:   4 minutes ago
+| 
+|     Creando el fichero README.md
+| 
+* commit 88c83fa
+  Author: Javier Díaz <alu0101128894@ull.edu.es>
+  Date:   4 minutes ago
+  
+      Creando el fichero .gitignore
+
+
+## Pregunta 43 - Dibuje el grafo de las confirmaciones hasta el momento. Indique dónde se encuentra el HEAD.
+
+* commit e12d139 (main)
+| Author: Javier Díaz <alu0101128894@ull.edu.es>
+| Date:   65 seconds ago
+| 
+|     Creando Hola mundo en Ruby
+|   
+| * commit 25c244b (HEAD -> doc)                           ->> Aquí se encuentra las ramas doc
+|/  Author: Javier Díaz <alu0101128894@ull.edu.es>
+|   Date:   2 minutes ago
+|   
+|       Grafo con la rama doc
+| 
+* commit e4a403c (ghp03/main)
+| Author: Javier Díaz <alu0101128894@ull.edu.es>
+| Date:   6 minutes ago
+| 
+|     Creado el fichero de respuestas
+| 
+* commit 13339b8
+| Author: Javier Díaz <alu0101128894@ull.edu.es>
+| Date:   7 minutes ago
+| 
+|     Creando el fichero README.md
+| 
+* commit 88c83fa
+  Author: Javier Díaz <alu0101128894@ull.edu.es>
+  Date:   7 minutes ago
+  
+      Creando el fichero .gitignore
+
+## Pregunta 50. Dibuje el grafo de las confirmaciones hasta el momento. Indique d´onde se encuentran las ramas
+doc y maestra (main). 
+
+* commit 3cc0045 (HEAD -> main, doc)                 ->> Aquí se encuentra las ramas doc y master
+| Author: Javier Díaz <alu0101128894@ull.edu.es>
+| Date:   69 seconds ago
+| 
+|     Grafo con Hello World en Ruby añadido
+| 
+* commit 9cf8252
+| Author: Javier Díaz <alu0101128894@ull.edu.es>
+| Date:   5 minutes ago
+| 
+|     Grafo con la rama doc
+| 
+* commit e12d139
+| Author: Javier Díaz <alu0101128894@ull.edu.es>
+| Date:   4 minutes ago
+| 
+|     Creando Hola mundo en Ruby
+| 
+* commit e4a403c (ghp03/main)
+| Author: Javier Díaz <alu0101128894@ull.edu.es>
+| Date:   9 minutes ago
+| 
+|     Creado el fichero de respuestas
+| 
+* commit 13339b8
+| Author: Javier Díaz <alu0101128894@ull.edu.es>
+| Date:   10 minutes ago
+| 
+|     Creando el fichero README.md
+| 
+* commit 88c83fa
+  Author: Javier Díaz <alu0101128894@ull.edu.es>
+  Date:   11 minutes ago
+  
+      Creando el fichero .gitignore
+
+## Pregunta 66 - ¿Qué es rvm? ¿Qué versión se ha instalado? 
+
+El administrador de versiones de Ruby (RVM) es una utilidad que permite agregar una versión personal de Ruby a un usuario, 
+permite agregar, eliminar o tener múltiples versiones de Ruby y también con bibliotecas en tu directorio.
+
+Se ha instalado dos versiones, ruby-2.7.2 y ruby-3.0.0, se ha utilizado actualmente la versión más reciente, la 3.0.0.
+
+
+## Pregunta 73 - ¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete
+de Ruby (ruby helloWorld.rb) y el intérprete interactivo del ejercicio anterior?
+
+La diferencia es que el intérprete de Ruby sale un mensaje por consola (un compilador), 
+en cambio el intérprete interactivo es una serie de intérprete de linea de comandos, es decir, 
+un lugar donde experimentar y descubrir ciertas características del programa.
+
+## Pregunta 80 - ¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete
+interactivo y con pry? 
+
+Las diferencias es que PRY es una consola alternativa a IRB, en este caso, con el IRB el "Hola Mundo" sale una serie de lineas de comandos, 
+pero en PRY es una gema, no cambia mucho las principales diferencias.
