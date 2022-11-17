@@ -8,4 +8,4 @@
 | [Práctica 4. Primeros Pasos con Ruby](https://github.com/alu0101128894/LPP/tree/main/2022/p04_estructurada) |
 | [Práctica 5. Pruebas Unitarias](https://github.com/alu0101128894/LPP/tree/main/2022/p05_pruebas-unitarias) |
 | [Práctica 6. Desarrollo dirigido por pruebas (TDD)](https://github.com/alu0101128894/LPP/tree/main/2022/p06_tdd) |
-| [Práctica 7. Programación Orientada a Objetos. Gema](https://github.com/alu0101128894/LPP/tree/main/2022/p07) |
+| [Práctica 7. Programación Orientada a Objetos. Gema](https://github.com/alu0101128894/LPP/tree/main/2022/p07_herencia) |

@@ -1,8 +1,11 @@
-# frozen_string_literal: true
+task :default => :noformat
 
-require "bundler/gem_tasks"
-require "rspec/core/rake_task"
+desc "Pruebas con formato simple"
+task :noformat do
+  sh "rspec spec/vehiculo_spec.rb"
+end
 
-RSpec::Core::RakeTask.new(:spec)
-
-task default: :spec
+desc "Pruebas con formato extendido"
+task :doc do
+  sh "rspec spec/vehiculo_spec.rb --format doc"
+end
