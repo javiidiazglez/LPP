@@ -1,0 +1,14 @@
+Thu, 10 Nov 2022 22:20:15 +0000
+Gemfile	Tue, 08 Nov 2022 16:09:06 +0000
+Gemfile.lock	Tue, 08 Nov 2022 16:16:06 +0000
+Guardfile	Tue, 08 Nov 2022 16:16:07 +0000
+README.md	Thu, 10 Nov 2022 22:20:12 +0000
+Rakefile	Tue, 08 Nov 2022 16:09:06 +0000
+bin/console	Tue, 08 Nov 2022 16:09:06 +0000
+bin/setup	Tue, 08 Nov 2022 16:09:06 +0000
+lib/aparcamiento/datos.rb	Thu, 10 Nov 2022 22:12:50 +0000
+lib/aparcamiento/version.rb	Thu, 10 Nov 2022 22:12:50 +0000
+lib/aparcamiento.rb	Thu, 10 Nov 2022 22:12:50 +0000
+sig/aparcamiento.rbs	Tue, 08 Nov 2022 16:09:06 +0000
+spec/aparcamiento_spec.rb	Thu, 10 Nov 2022 22:12:50 +0000
+spec/spec_helper.rb	Tue, 08 Nov 2022 16:09:06 +0000
