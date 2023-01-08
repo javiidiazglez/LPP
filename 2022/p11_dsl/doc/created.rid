@@ -1,0 +1,19 @@
+Fri, 16 Dec 2022 12:21:31 +0000
+Gemfile	Tue, 08 Nov 2022 16:09:06 +0000
+Gemfile.lock	Wed, 30 Nov 2022 19:25:59 +0000
+Guardfile	Tue, 08 Nov 2022 16:16:07 +0000
+README.md	Fri, 16 Dec 2022 12:19:03 +0000
+Rakefile	Tue, 08 Nov 2022 16:09:06 +0000
+bin/console	Tue, 08 Nov 2022 16:09:06 +0000
+bin/setup	Tue, 08 Nov 2022 16:09:06 +0000
+lib/aparcamiento/datos.rb	Fri, 16 Dec 2022 12:21:10 +0000
+lib/aparcamiento/dslproveedor.rb	Fri, 16 Dec 2022 12:21:10 +0000
+lib/aparcamiento/vehiculo.rb	Fri, 16 Dec 2022 12:21:10 +0000
+lib/aparcamiento/version.rb	Wed, 30 Nov 2022 19:25:59 +0000
+lib/aparcamiento.rb	Fri, 16 Dec 2022 12:21:10 +0000
+sig/aparcamiento.rbs	Tue, 08 Nov 2022 16:09:06 +0000
+spec/aparcamiento_datos_spec.rb	Fri, 16 Dec 2022 12:21:10 +0000
+spec/aparcamiento_dsl_spec.rb	Fri, 16 Dec 2022 12:21:10 +0000
+spec/aparcamiento_funciones_spec.rb	Fri, 16 Dec 2022 12:21:10 +0000
+spec/spec_helper.rb	Tue, 08 Nov 2022 16:09:06 +0000
+spec/vehiculo_spec.rb	Fri, 16 Dec 2022 12:21:10 +0000
