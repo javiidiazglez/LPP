@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>class Aparcamiento::Motor - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+  var index_rel_prefix = "../";
+</script>
+
+<script src="../js/navigation.js" defer></script>
+<script src="../js/search.js" defer></script>
+<script src="../js/search_index.js" defer></script>
+<script src="../js/searcher.js" defer></script>
+<script src="../js/darkfish.js" defer></script>
+
+<link href="../css/fonts.css" rel="stylesheet">
+<link href="../css/rdoc.css" rel="stylesheet">
+
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../table_of_contents.html#pages">Pages</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    
+<div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
+  <p class="link"><a href="Vehiculo.html">Aparcamiento::Vehiculo</a>
+</div>
+
+    
+    
+    
+<!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    <li class="calls-super" ><a href="#method-c-new">::new</a>
+    <li ><a href="#method-i-3C-3D-3E">#&lt;=&gt;</a>
+    <li class="calls-super" ><a href="#method-i-to_s">#to_s</a>
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="class-Aparcamiento::Motor">
+  <h1 id="class-Aparcamiento::Motor" class="class">
+    class Aparcamiento::Motor
+  </h1>
+
+  <section class="description">
+    
+  </section>
+
+  <section id="5Buntitled-5D" class="documentation-section">
+
+
+
+    <section class="attribute-method-details" class="method-section">
+      <header>
+        <h3>Attributes</h3>
+      </header>
+
+      <div id="attribute-i-centimetro" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">centimetro</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-plazas" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">plazas</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-ruedas" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">ruedas</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-velocidad" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">velocidad</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+    </section>
+
+
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Class Methods</h3>
+       </header>
+
+      <div id="method-c-new" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(id, alto, ancho, largo, peso, plazas, ruedas, centimetro, velocidad)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          
+            <div class="method-calls-super">
+              Calls superclass method
+              <a href="Vehiculo.html#method-c-new"><code>Aparcamiento::Vehiculo::new</code></a>
+            </div>
+
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File lib/aparcamiento/vehiculo.rb, line 95</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">initialize</span>(<span class="ruby-identifier">id</span>, <span class="ruby-identifier">alto</span>, <span class="ruby-identifier">ancho</span>, <span class="ruby-identifier">largo</span>, <span class="ruby-identifier">peso</span>, <span class="ruby-identifier">plazas</span>, <span class="ruby-identifier">ruedas</span>, <span class="ruby-identifier">centimetro</span>, <span class="ruby-identifier">velocidad</span>)     
+  <span class="ruby-keyword">super</span>(<span class="ruby-identifier">id</span>, <span class="ruby-identifier">alto</span>, <span class="ruby-identifier">ancho</span>, <span class="ruby-identifier">largo</span>, <span class="ruby-identifier">peso</span>)
+  <span class="ruby-comment"># plazas</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">plazas</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Numeric</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">plazas</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">0</span>
+      <span class="ruby-ivar">@plazas</span> = <span class="ruby-identifier">plazas</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-ivar">@plazas</span> = <span class="ruby-string">&quot;Plazas no valido, deben ser numeros positivos&quot;</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@plazas</span> = <span class="ruby-string">&quot;Error: Tipo de plazas no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># ruedas</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">ruedas</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Numeric</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">ruedas</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">0</span>
+      <span class="ruby-ivar">@ruedas</span> = <span class="ruby-identifier">ruedas</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-ivar">@ruedas</span> = <span class="ruby-string">&quot;Ruedas no valido, deben ser numeros positivos&quot;</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@ruedas</span> = <span class="ruby-string">&quot;Error: Tipo de ruedas no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># centimetro</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">centimetro</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Numeric</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">centimetro</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">0</span>
+      <span class="ruby-ivar">@centimetro</span> = <span class="ruby-identifier">centimetro</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-ivar">@centimetro</span> = <span class="ruby-string">&quot;Centimetro no valido, deben ser numeros positivos&quot;</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@centimetro</span> = <span class="ruby-string">&quot;Error: Tipo de centimetro no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># velocidad</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">velocidad</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Numeric</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">velocidad</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">0</span>
+      <span class="ruby-ivar">@velocidad</span> = <span class="ruby-identifier">velocidad</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-ivar">@velocidad</span> = <span class="ruby-string">&quot;Velocidad no valido, deben ser numeros positivos&quot;</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@velocidad</span> = <span class="ruby-string">&quot;Error: Tipo de velocidad no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+      <div id="method-i-3C-3D-3E" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">&lt;=&gt;</span><span
+            class="method-args">(other)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          
+
+          <div class="method-source-code" id="3C-3D-3E-source">
+            <pre><span class="ruby-comment"># File lib/aparcamiento/vehiculo.rb, line 143</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">&lt;=&gt;</span> (<span class="ruby-identifier">other</span>)
+  <span class="ruby-keyword">return</span> <span class="ruby-keyword">nil</span> <span class="ruby-keyword">unless</span> <span class="ruby-identifier">other</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Motor</span>
+
+  <span class="ruby-ivar">@plazas</span> <span class="ruby-operator">&lt;=&gt;</span> <span class="ruby-identifier">other</span>.<span class="ruby-identifier">plazas</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-to_s" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">to_s</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          
+            <div class="method-calls-super">
+              Calls superclass method
+              <a href="Vehiculo.html#method-i-to_s"><code>Aparcamiento::Vehiculo#to_s</code></a>
+            </div>
+
+          <div class="method-source-code" id="to_s-source">
+            <pre><span class="ruby-comment"># File lib/aparcamiento/vehiculo.rb, line 139</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">to_s</span>
+  <span class="ruby-keyword">super</span>.<span class="ruby-identifier">to_s</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-node">&quot; - (#{@plazas}) - (#{@ruedas}) - (#{@centimetro}) - (#{@velocidad})&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.3.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+

@@ -10,3 +10,4 @@
 | [Práctica 6. Desarrollo dirigido por pruebas (TDD)](https://github.com/alu0101128894/LPP/tree/main/2022/p06_tdd) |
 | [Práctica 7. Programación Orientada a Objetos. Gema](https://github.com/alu0101128894/LPP/tree/main/2022/p07_gema) |
 | [Práctica 8. Programación Orientada a Objetos. Herencia](https://github.com/alu0101128894/LPP/tree/main/2022/p08_herencia) |
+| [Práctica 9. Programación Orientada a Objetos. Polimorfismo](https://github.com/alu0101128894/LPP/tree/main/2022/p09_polimorfismo) |
