@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>class Aparcamiento::Datos - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+  var index_rel_prefix = "../";
+</script>
+
+<script src="../js/navigation.js" defer></script>
+<script src="../js/search.js" defer></script>
+<script src="../js/search_index.js" defer></script>
+<script src="../js/searcher.js" defer></script>
+<script src="../js/darkfish.js" defer></script>
+
+<link href="../css/fonts.css" rel="stylesheet">
+<link href="../css/rdoc.css" rel="stylesheet">
+
+
+<body id="top" role="document" class="class">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../table_of_contents.html#pages">Pages</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="class-metadata">
+    
+    
+<div id="parent-class-section" class="nav-section">
+  <h3>Parent</h3>
+
+  <p class="link">Object
+</div>
+
+    
+<div id="includes-section" class="nav-section">
+  <h3>Included Modules</h3>
+
+  <ul class="link-list">
+    <li><span class="include">Enumerable</span>
+  </ul>
+</div>
+
+    
+    
+<!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
+    <li ><a href="#method-c-new">::new</a>
+    <li ><a href="#method-i-aparcar">#aparcar</a>
+    <li ><a href="#method-i-duracion">#duracion</a>
+    <li ><a href="#method-i-each">#each</a>
+    <li ><a href="#method-i-hora_a_segundos">#hora_a_segundos</a>
+    <li ><a href="#method-i-importe">#importe</a>
+    <li ><a href="#method-i-numero_plazas">#numero_plazas</a>
+    <li ><a href="#method-i-numero_plazas_libres">#numero_plazas_libres</a>
+    <li ><a href="#method-i-to_s">#to_s</a>
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-labelledby="class-Aparcamiento::Datos">
+  <h1 id="class-Aparcamiento::Datos" class="class">
+    class Aparcamiento::Datos
+  </h1>
+
+  <section class="description">
+    
+  </section>
+
+  <section id="5Buntitled-5D" class="documentation-section">
+
+
+
+    <section class="attribute-method-details" class="method-section">
+      <header>
+        <h3>Attributes</h3>
+      </header>
+
+      <div id="attribute-i-accesibilidad" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">accesibilidad</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-descripcion" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">descripcion</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-distancia" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">distancia</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-id" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">id</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-n_plazas_minusvalido" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">n_plazas_minusvalido</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-nombre" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">nombre</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-plazas" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">plazas</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-plazas_ocupadaslibres" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">plazas_ocupadaslibres</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-precio" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">precio</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-seguridad" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">seguridad</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-tipo" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">tipo</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+      <div id="attribute-i-vehiculo" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">vehiculo</span><span
+            class="attribute-access-type">[R]</span>
+        </div>
+
+        <div class="method-description">
+        
+        </div>
+      </div>
+    </section>
+
+
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Class Methods</h3>
+       </header>
+
+      <div id="method-c-new" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">(accesibilidad, seguridad, id, nombre, descripcion, tipo, plazas_ocupadaslibres, plazas, distancia, n_plazas_minusvalido, precio, vehiculo)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          
+
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File lib/aparcamiento/datos.rb, line 10</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">initialize</span>(<span class="ruby-identifier">accesibilidad</span>, <span class="ruby-identifier">seguridad</span>, <span class="ruby-identifier">id</span>, <span class="ruby-identifier">nombre</span>, <span class="ruby-identifier">descripcion</span>, <span class="ruby-identifier">tipo</span>, <span class="ruby-identifier">plazas_ocupadaslibres</span>, <span class="ruby-identifier">plazas</span>, <span class="ruby-identifier">distancia</span>, <span class="ruby-identifier">n_plazas_minusvalido</span>, <span class="ruby-identifier">precio</span>, <span class="ruby-identifier">vehiculo</span>)     
+  <span class="ruby-comment"># accesibilidad</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">accesibilidad</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Integer</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">accesibilidad</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">1</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">accesibilidad</span> <span class="ruby-operator">&lt;=</span> <span class="ruby-value">5</span>
+      <span class="ruby-ivar">@accesibilidad</span> = <span class="ruby-identifier">accesibilidad</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-ivar">@accesibilidad</span> = <span class="ruby-string">&quot;Accesibilidad no valido [1..5]&quot;</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@accesibilidad</span> = <span class="ruby-string">&quot;Error: Tipo de accesibilidad no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># seguridad</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">seguridad</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Integer</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">seguridad</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">1</span> <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">seguridad</span> <span class="ruby-operator">&lt;=</span> <span class="ruby-value">10</span>
+      <span class="ruby-ivar">@seguridad</span> = <span class="ruby-identifier">seguridad</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-ivar">@seguridad</span> = <span class="ruby-string">&quot;Seguridad no valido [1..10]&quot;</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@seguridad</span> = <span class="ruby-string">&quot;Error: Tipo de seguridad no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># Identificación</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">id</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Integer</span>
+    <span class="ruby-ivar">@id</span> = <span class="ruby-identifier">id</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@id</span> = <span class="ruby-string">&quot;Error: Tipo de identificación no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># nombre</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">nombre</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">String</span>
+    <span class="ruby-ivar">@nombre</span> = <span class="ruby-identifier">nombre</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@nombre</span> = <span class="ruby-string">&quot;Error: Tipo de nombre no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># descripcion</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">descripcion</span> <span class="ruby-operator">==</span> <span class="ruby-value">:cubierto</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">descripcion</span> <span class="ruby-operator">==</span> <span class="ruby-value">:aire_libre</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">descripcion</span> <span class="ruby-operator">==</span> <span class="ruby-value">:mixto</span>
+    <span class="ruby-ivar">@descripcion</span> = <span class="ruby-identifier">descripcion</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@descripcion</span> = <span class="ruby-string">&quot;Error: Tipo de descripcion no válido [cubierto/aire_libre/mixto]&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># tipo</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">tipo</span> <span class="ruby-operator">==</span> <span class="ruby-value">:autobuses</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">tipo</span> <span class="ruby-operator">==</span> <span class="ruby-value">:bicicletas</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">tipo</span> <span class="ruby-operator">==</span> <span class="ruby-value">:coches</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">tipo</span> <span class="ruby-operator">==</span> <span class="ruby-value">:motos</span>
+    <span class="ruby-ivar">@tipo</span> = <span class="ruby-identifier">tipo</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@tipo</span> = <span class="ruby-string">&quot;Error: Tipo no válido [cubierto/aire_libre/mixto]&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># plazas_ocupadaslibres</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">plazas_ocupadaslibres</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Array</span>
+    <span class="ruby-ivar">@plazas_ocupadaslibres</span> = <span class="ruby-identifier">plazas_ocupadaslibres</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@plazas_ocupadaslibres</span> = <span class="ruby-string">&quot;Error: Tipo de conjunto libre-ocupado no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># plazas</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">plazas</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Array</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">plazas</span>.<span class="ruby-identifier">length</span> <span class="ruby-operator">!=</span> <span class="ruby-value">0</span>
+      <span class="ruby-ivar">@plazas</span> = <span class="ruby-identifier">plazas</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-ivar">@plazas</span> = <span class="ruby-string">&quot;Error: Número de plazas incorrecto&quot;</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@plazas</span> = <span class="ruby-string">&quot;Error: Tipo de plazas no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># distancia</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">distancia</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Float</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">distancia</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">0.0</span>
+      <span class="ruby-ivar">@distancia</span> = <span class="ruby-identifier">distancia</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-ivar">@distancia</span> = <span class="ruby-string">&quot;Error: Distancia no valido, deben ser numeros positivos&quot;</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@distancia</span> = <span class="ruby-string">&quot;Error: Tipo de distancia no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># n_plazas_minusvalido</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">n_plazas_minusvalido</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Integer</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">n_plazas_minusvalido</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">0</span>
+      <span class="ruby-ivar">@n_plazas_minusvalido</span> = <span class="ruby-identifier">n_plazas_minusvalido</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-ivar">@n_plazas_minusvalido</span> = <span class="ruby-string">&quot;Error: Plazas minusvalido no valido, deben ser numeros positivos&quot;</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@n_plazas_minusvalido</span> = <span class="ruby-string">&quot;Error: Tipo de numero plazas minusvalido no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># precio</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">precio</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Float</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">precio</span> <span class="ruby-operator">&gt;=</span> <span class="ruby-value">0.0</span>
+      <span class="ruby-ivar">@precio</span> = <span class="ruby-identifier">precio</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-ivar">@precio</span> = <span class="ruby-string">&quot;Error: Precio no valido, deben ser numeros positivos&quot;</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@precio</span> = <span class="ruby-string">&quot;Error: Tipo de precio no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+  <span class="ruby-comment"># vehiculo</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">vehiculo</span>.<span class="ruby-identifier">is_a?</span> <span class="ruby-constant">Array</span>
+    <span class="ruby-ivar">@vehiculo</span> = <span class="ruby-identifier">vehiculo</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-ivar">@vehiculo</span> = <span class="ruby-string">&quot;Error: Tipo de conjunto vehiculo no válido&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+      <div id="method-i-aparcar" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">aparcar</span><span
+            class="method-args">(vehiculo_objecto, posicion)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          
+
+          <div class="method-source-code" id="aparcar-source">
+            <pre><span class="ruby-comment"># File lib/aparcamiento/datos.rb, line 135</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">aparcar</span>(<span class="ruby-identifier">vehiculo_objecto</span>, <span class="ruby-identifier">posicion</span>)
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">numero_plazas_libres</span> <span class="ruby-operator">!=</span> <span class="ruby-value">0</span>
+    <span class="ruby-keyword">if</span> <span class="ruby-identifier">plazas_ocupadaslibres</span>[<span class="ruby-identifier">posicion</span>] <span class="ruby-operator">==</span> <span class="ruby-string">&#39;ocupada&#39;</span>
+      <span class="ruby-keyword">if</span> <span class="ruby-identifier">vehiculo_objecto</span>.<span class="ruby-identifier">alto</span> <span class="ruby-operator">&lt;=</span> <span class="ruby-identifier">plazas</span>[<span class="ruby-identifier">posicion</span>][<span class="ruby-value">0</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">vehiculo_objecto</span>.<span class="ruby-identifier">largo</span> <span class="ruby-operator">&lt;=</span> <span class="ruby-identifier">plazas</span>[<span class="ruby-identifier">posicion</span>][<span class="ruby-value">1</span>] <span class="ruby-operator">&amp;&amp;</span> <span class="ruby-identifier">vehiculo_objecto</span>.<span class="ruby-identifier">ancho</span> <span class="ruby-operator">&lt;=</span> <span class="ruby-identifier">plazas</span>[<span class="ruby-identifier">posicion</span>][<span class="ruby-value">2</span>]  
+        <span class="ruby-identifier">plazas_ocupadaslibres</span>[<span class="ruby-identifier">posicion</span>] <span class="ruby-operator">==</span> <span class="ruby-string">&#39;libre&#39;</span>
+        <span class="ruby-identifier">vehiculo</span>.<span class="ruby-identifier">append</span>(<span class="ruby-identifier">vehiculo_objecto</span>)
+        <span class="ruby-keyword">return</span> <span class="ruby-node">&quot;Vehículo: #{vehiculo_objecto.id} aparcado en posición: #{posicion}&quot;</span>
+      <span class="ruby-keyword">else</span>
+        <span class="ruby-keyword">return</span> <span class="ruby-string">&quot;El vehículo no entra en el estacionamiento seleccionado&quot;</span>
+      <span class="ruby-keyword">end</span>
+    <span class="ruby-keyword">else</span>
+      <span class="ruby-keyword">return</span> <span class="ruby-string">&quot;Aparcamiento seleccionado ocupado&quot;</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-keyword">return</span> <span class="ruby-string">&quot;No se pueden aparcar coches, Aparcamiento lleno&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-duracion" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">duracion</span><span
+            class="method-args">(entrada, salida)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          
+
+          <div class="method-source-code" id="duracion-source">
+            <pre><span class="ruby-comment"># File lib/aparcamiento/datos.rb, line 153</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">duracion</span>(<span class="ruby-identifier">entrada</span>, <span class="ruby-identifier">salida</span>)
+  <span class="ruby-identifier">array_entrada</span> = <span class="ruby-identifier">entrada</span>.<span class="ruby-identifier">split</span>(<span class="ruby-string">&quot;:&quot;</span>)
+  <span class="ruby-identifier">array_salida</span> = <span class="ruby-identifier">salida</span>.<span class="ruby-identifier">split</span>(<span class="ruby-string">&quot;:&quot;</span>)
+
+  <span class="ruby-identifier">segundos_entrada</span> = <span class="ruby-identifier">hora_a_segundos</span>(<span class="ruby-identifier">array_entrada</span>)
+  <span class="ruby-identifier">segundos_salida</span> = <span class="ruby-identifier">hora_a_segundos</span>(<span class="ruby-identifier">array_salida</span>)
+
+  <span class="ruby-identifier">resultado_segundos</span> = <span class="ruby-identifier">segundos_salida</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">segundos_entrada</span>
+
+  <span class="ruby-identifier">resultado_horas</span> = <span class="ruby-identifier">resultado_segundos</span> <span class="ruby-operator">/</span> <span class="ruby-value">3600</span>
+  <span class="ruby-identifier">resultado_minutos</span> = (<span class="ruby-identifier">resultado_horas</span>).<span class="ruby-identifier">round</span>(<span class="ruby-value">2</span>) <span class="ruby-operator">%</span> <span class="ruby-value">1</span> <span class="ruby-operator">*</span> <span class="ruby-value">60</span>
+  
+  <span class="ruby-keyword">return</span>  <span class="ruby-node">&quot;#{Integer(resultado_horas)} : #{Integer(resultado_minutos)}&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-each" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">each</span><span
+            class="method-args">() { |plazas| ... }</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          
+
+          <div class="method-source-code" id="each-source">
+            <pre><span class="ruby-comment"># File lib/aparcamiento/datos.rb, line 184</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">each</span>
+  <span class="ruby-keyword">for</span> <span class="ruby-identifier">index</span> <span class="ruby-keyword">in</span> (<span class="ruby-value">0</span><span class="ruby-operator">...</span><span class="ruby-ivar">@plazas</span>.<span class="ruby-identifier">length</span>)  
+    <span class="ruby-keyword">yield</span> <span class="ruby-ivar">@plazas</span>[<span class="ruby-identifier">index</span>]
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-hora_a_segundos" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">hora_a_segundos</span><span
+            class="method-args">(array)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          
+
+          <div class="method-source-code" id="hora_a_segundos-source">
+            <pre><span class="ruby-comment"># File lib/aparcamiento/datos.rb, line 167</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">hora_a_segundos</span>(<span class="ruby-identifier">array</span>)
+  <span class="ruby-identifier">array</span>[<span class="ruby-value">0</span>] = <span class="ruby-constant">Float</span>(<span class="ruby-identifier">array</span>[<span class="ruby-value">0</span>]) <span class="ruby-operator">*</span> <span class="ruby-value">3600</span>
+  <span class="ruby-identifier">array</span>[<span class="ruby-value">1</span>] = <span class="ruby-constant">Float</span>(<span class="ruby-identifier">array</span>[<span class="ruby-value">1</span>]) <span class="ruby-operator">*</span> <span class="ruby-value">60</span>
+
+  <span class="ruby-identifier">array</span>[<span class="ruby-value">0</span>] <span class="ruby-operator">+</span> <span class="ruby-identifier">array</span>[<span class="ruby-value">1</span>]
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-importe" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">importe</span><span
+            class="method-args">(duracion)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          
+
+          <div class="method-source-code" id="importe-source">
+            <pre><span class="ruby-comment"># File lib/aparcamiento/datos.rb, line 174</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">importe</span>(<span class="ruby-identifier">duracion</span>)
+  <span class="ruby-identifier">array_duracion</span> = <span class="ruby-identifier">duracion</span>.<span class="ruby-identifier">split</span>(<span class="ruby-string">&quot;:&quot;</span>)
+
+  <span class="ruby-identifier">array_duracion</span>[<span class="ruby-value">0</span>] = <span class="ruby-constant">Float</span>(<span class="ruby-identifier">array_duracion</span>[<span class="ruby-value">0</span>]) <span class="ruby-operator">*</span> <span class="ruby-value">60</span>
+
+  <span class="ruby-identifier">minutos</span> = <span class="ruby-identifier">array_duracion</span>[<span class="ruby-value">0</span>] <span class="ruby-operator">+</span> <span class="ruby-constant">Float</span>(<span class="ruby-identifier">array_duracion</span>[<span class="ruby-value">1</span>])
+
+  (<span class="ruby-identifier">minutos</span> <span class="ruby-operator">*</span> <span class="ruby-identifier">precio</span>).<span class="ruby-identifier">round</span>(<span class="ruby-value">2</span>)
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-numero_plazas" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">numero_plazas</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          
+
+          <div class="method-source-code" id="numero_plazas-source">
+            <pre><span class="ruby-comment"># File lib/aparcamiento/datos.rb, line 109</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">numero_plazas</span>
+  <span class="ruby-keyword">if</span> <span class="ruby-identifier">plazas</span>.<span class="ruby-identifier">is_a?</span><span class="ruby-constant">Array</span>
+    <span class="ruby-ivar">@plazas</span>.<span class="ruby-identifier">length</span>
+  <span class="ruby-keyword">else</span>
+    <span class="ruby-string">&quot;Error, tipo de plazas incorrecto&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-numero_plazas_libres" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">numero_plazas_libres</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          
+
+          <div class="method-source-code" id="numero_plazas_libres-source">
+            <pre><span class="ruby-comment"># File lib/aparcamiento/datos.rb, line 117</span>
+ <span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">numero_plazas_libres</span>
+   <span class="ruby-keyword">if</span> <span class="ruby-identifier">plazas</span>.<span class="ruby-identifier">is_a?</span><span class="ruby-constant">Array</span>
+     <span class="ruby-keyword">if</span> <span class="ruby-identifier">plazas_ocupadaslibres</span>.<span class="ruby-identifier">length</span> <span class="ruby-operator">==</span> <span class="ruby-identifier">numero_plazas</span>
+       <span class="ruby-identifier">total</span> = <span class="ruby-value">0</span>
+       <span class="ruby-keyword">for</span> <span class="ruby-identifier">i</span> <span class="ruby-keyword">in</span> <span class="ruby-identifier">plazas_ocupadaslibres</span>
+         <span class="ruby-keyword">if</span> <span class="ruby-identifier">i</span>.<span class="ruby-identifier">to_s</span> <span class="ruby-operator">==</span> <span class="ruby-string">&#39;libre&#39;</span>
+             <span class="ruby-identifier">total</span> = <span class="ruby-identifier">total</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span> 
+         <span class="ruby-keyword">end</span>
+       <span class="ruby-keyword">end</span>
+       <span class="ruby-keyword">return</span> <span class="ruby-identifier">total</span>
+     <span class="ruby-keyword">else</span>
+       <span class="ruby-string">&quot;No tiene el mismo tamaño que plazas&quot;</span>
+     <span class="ruby-keyword">end</span>
+   <span class="ruby-keyword">else</span>
+     <span class="ruby-string">&quot;Error, tipo de plazas libres incorrectos&quot;</span>
+   <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="method-i-to_s" class="method-detail ">
+        <div class="method-heading">
+          <span class="method-name">to_s</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+
+        <div class="method-description">
+          
+
+          <div class="method-source-code" id="to_s-source">
+            <pre><span class="ruby-comment"># File lib/aparcamiento/datos.rb, line 190</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier ruby-title">to_s</span>
+  <span class="ruby-node">&quot;#{self.class}: =&gt; #{@accesibilidad}, #{@seguridad}, #{@id}, #{@nombre}, #{@descripcion}, #{@tipo}, #{@plazas_ocupadaslibres}, #{@distancia}, #{@n_plazas_minusvalido}, #{@precio}, #{@vehiculo[0]}&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+  </section>
+</main>
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.3.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
